@@ -15,6 +15,9 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 
 public class ThumbnailDownloader<T> extends HandlerThread {
+
+
+
     private static final String TAG = "ThumbnailDownloader";
 
     //用来标示下载请求消息
